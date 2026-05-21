@@ -1,0 +1,23 @@
+h1{
+    color:greenyellow;
+    font-size: 40px;
+    font-weight:10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 0px; 
+    margin-top: pc;
+    
+    
+}
+*{
+background-color: rgb(94, 13, 90);
+}
+
+h2{
+    color: #2E86AB;
+    font-size: 30px;
+}
+
+h3{
+    color: #566573;
+    font-size: 22px;
+}

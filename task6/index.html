@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+
+<link rel="stylesheet" href="external.css">
+</head>
+
+<body>
+
+    <div class="form-box">
+
+        <h2><center>Contact me</center></h2>
+
+        <form action="/task5/index.html">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+
+            <label>Phone:</label><br>
+            <input type="tel" name="phone"><br><br>
+
+            <h2>gender</h2>
+
+            <input type="radio" name="gender">male<br>
+            <input type="radio" name="gender">Female<br>
+
+
+                <h2>do you like webtech class or not</h2>
+
+            <input type="checkbox" name="class">yes<br>
+            <input type="checkbox" name="class1">no<br>
+            <select name="subject">
+                <option value="">-- Select subject--</option>
+                <option value="mum">Java</option>
+                <option value="del">Python</option>
+                <option value="del">mernstack</option>
+                 <option value="del">fullsatck</option>
+
+
+            </select><br><br>
+
+            <textarea rows="4" placeholder="Your message"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #F4F6F7;
+    padding: 20px;
+}
+
+.report{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+h2{
+    color: #1B4F72;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th{
+    background: #2E86AB;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+tfoot td{
+    background: #D6EAF8;
+    font-weight: bold;
+}

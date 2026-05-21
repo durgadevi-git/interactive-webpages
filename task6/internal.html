@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: #F4F6F7;
+            padding: 20px;
+        }
+
+        .form-box{
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2{
+            color: #1B4F72;
+            text-align: center;
+        }
+
+        label{
+            font-weight: bold;
+            color: #2E4053;
+        }
+
+        input,
+        select,
+        textarea{
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button{
+            background: #2E86AB;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: #1B4F72;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-box">
+
+        <h2>Contact me</h2>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label>Phone:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <select name="subject">
+            <option value="">-- Select subject--</option>
+            <option value="mum">Java</option>
+            <option value="del">Python</option>
+        </select><br><br>
+
+        <textarea rows="4" placeholder="Your message"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+
+    </div>
+
+</body>
+</html>
